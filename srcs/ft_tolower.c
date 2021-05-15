@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/28 14:07:44 by auhoris           #+#    #+#             */
-/*   Updated: 2020/10/31 17:15:55 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:37 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int		ft_tolower(int c)
 {

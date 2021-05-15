@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/04 18:04:21 by auhoris           #+#    #+#             */
-/*   Updated: 2020/11/04 20:21:01 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:36 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 static void		ft_reverse(char *s)
 {

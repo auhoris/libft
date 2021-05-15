@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/30 11:09:40 by auhoris           #+#    #+#             */
-/*   Updated: 2020/11/10 14:30:16 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:37 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 static int	in_symbols(char c)
 {

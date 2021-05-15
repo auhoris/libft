@@ -1,21 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstdelone.c                                     :+:      :+:    :+:   */
+/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/02 18:37:20 by auhoris           #+#    #+#             */
-/*   Updated: 2020/11/03 21:10:34 by auhoris          ###   ########.fr       */
+/*   Created: 2020/11/02 18:19:21 by auhoris           #+#    #+#             */
+/*   Updated: 2021/05/15 13:47:19 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
-void	ft_lstdelone(t_list *lst, void (*del)(void*))
+void	ft_lstadd_front(t_list **lst, t_list *new_el)
 {
-	if (!lst)
-		return ;
-	(*del)(lst->content);
-	free(lst);
+	new_el->next = *lst;
+	*lst = new_el;
 }

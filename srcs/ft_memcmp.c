@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 14:54:29 by auhoris           #+#    #+#             */
-/*   Updated: 2020/10/31 18:03:34 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:37 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int		ft_memcmp(const void *s1, const void *s2, size_t n)
 {

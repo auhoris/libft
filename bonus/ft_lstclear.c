@@ -1,19 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/02 18:19:21 by auhoris           #+#    #+#             */
-/*   Updated: 2021/01/23 18:20:17 by auhoris          ###   ########.fr       */
+/*   Created: 2020/11/02 18:41:45 by auhoris           #+#    #+#             */
+/*   Updated: 2021/05/15 13:47:19 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
-void	ft_lstadd_front(t_list **lst, t_list *new_el)
+void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
-	new_el->next = *lst;
-	*lst = new_el;
+	t_list	*sv_lst;
+
+	if (!(*lst))
+		return ;
+	while (*lst)
+	{
+		sv_lst = *lst;
+		*lst = (*lst)->next;
+		(*del)(sv_lst->content);
+		free(sv_lst);
+	}
+	*lst = 0;
 }

@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/28 14:20:46 by auhoris           #+#    #+#             */
-/*   Updated: 2020/10/31 20:02:34 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:36 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {

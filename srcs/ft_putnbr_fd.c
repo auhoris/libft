@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/02 17:11:43 by auhoris           #+#    #+#             */
-/*   Updated: 2020/11/02 17:21:54 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:37 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 static int	ft_abs(int n)
 {

@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/10 14:37:50 by auhoris           #+#    #+#             */
-/*   Updated: 2020/11/10 14:38:06 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:38 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int		ft_isprint(int c)
 {

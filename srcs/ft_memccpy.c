@@ -6,11 +6,11 @@
 /*   By: auhoris <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 11:03:44 by auhoris           #+#    #+#             */
-/*   Updated: 2020/10/31 17:43:49 by auhoris          ###   ########.fr       */
+/*   Updated: 2021/05/15 13:46:36 by auhoris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void		*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
